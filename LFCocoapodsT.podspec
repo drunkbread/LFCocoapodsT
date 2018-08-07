@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LFCocoapodsT"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.license      = "MIT"
   s.summary      = "A cocoapods test"
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.platform     = :ios, "9.0" #平台及支持的最低版本
   s.frameworks   = "UIKit", "Foundation" #支持的框架
- # s.dependency = "AFNetworking"
+  s.dependency 'AFNetworking'
 
   # User
   s.author             = { "BY" => "853163939@qq.com" }
